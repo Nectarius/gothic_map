@@ -164,7 +164,7 @@
 
                                     if (objectDescription.location == "")
                                         $("<div style='position: absolute;' class='obj'/>")
-                                            .html("<img src='http://pirat-seawolf.com/gothic_map/&quot;&#32;+&#32;objectDescription.image&#32;+&#32;&quot;' style='width: " + objectDescription.size.width + "px; height: " + objectDescription.size.height + "px;'/>")
+                                             .html("<img src='" + objectDescription.image + "' style='width: " + objectDescription.size.width + "px; height: " + objectDescription.size.height + "px;'/>")
                                             .offset({ top: objectDescription.location.y - 35, left: objectDescription.location.x - 35})
                                             .mouseenter(function () {
                                                 selectedObject = objectDescription;
@@ -854,30 +854,30 @@ vertexes: [{x: 741, y: 1010}, {x: 758, y: 1015}, {x: 770, y: 999}, {x: 787, y: 9
 });
 areas.push({
 name: "30",
-owner: "Орки",
+owner: "Паладины",
 textColor: "#FF8C00",
-backgroundColor: "#FF8C00",
+backgroundColor: "#D3D3D3",
 vertexes: [{x: 915, y: 448}, {x: 929, y: 464}, {x: 938, y: 486}, {x: 943, y: 493}, {x: 948, y: 484}, {x: 957, y: 484}, {x: 962, y: 475}, {x: 957, y: 469}, {x: 955, y: 458}, {x: 969, y: 451}, {x: 969, y: 436}, {x: 963, y: 432}, {x: 957, y: 418}, {x: 958, y: 409}, {x: 962, y: 401}, {x: 956, y: 396}, {x: 947, y: 399}, {x: 934, y: 401}, {x: 921, y: 379}, {x: 894, y: 380}, {x: 869, y: 397}, {x: 870, y: 406}, {x: 875, y: 412}, {x: 873, y: 429}, {x: 885, y: 438}, {x: 895, y: 437}, {x: 906, y: 440}, {x: 915, y: 448}]
 });
 areas.push({
 name: "39",
-owner: "Орки",
+owner: "Паладины",
 textColor: "#FF8C00",
-backgroundColor: "#FF8C00",
+backgroundColor: "#D3D3D3",
 vertexes: [{x: 849, y: 494}, {x: 873, y: 498}, {x: 890, y: 501}, {x: 906, y: 502}, {x: 921, y: 497}, {x: 936, y: 482}, {x: 929, y: 463}, {x: 905, y: 441}, {x: 893, y: 438}, {x: 885, y: 439}, {x: 873, y: 430}, {x: 859, y: 440}, {x: 811, y: 448}, {x: 816, y: 467}, {x: 830, y: 476}, {x: 814, y: 480}, {x: 817, y: 494}, {x: 839, y: 493}, {x: 849, y: 494}]
 });
 areas.push({
 name: "49",
-owner: "Орки",
+owner: "Паладины",
 textColor: "#FF8C00",
-backgroundColor: "#FF8C00",
+backgroundColor: "#D3D3D3",
 vertexes: [{x: 862, y: 524}, {x: 874, y: 520}, {x: 886, y: 500}, {x: 844, y: 493}, {x: 814, y: 496}, {x: 816, y: 511}, {x: 801, y: 512}, {x: 788, y: 506}, {x: 768, y: 504}, {x: 764, y: 522}, {x: 780, y: 556}, {x: 794, y: 561}, {x: 814, y: 573}, {x: 826, y: 573}, {x: 833, y: 542}, {x: 846, y: 549}, {x: 865, y: 546}, {x: 860, y: 530}, {x: 862, y: 524}]
 });
 areas.push({
 name: "51",
-owner: "Орки",
+owner: "Паладины",
 textColor: "#FF8C00",
-backgroundColor: "#FF8C00",
+backgroundColor: "#D3D3D3",
 vertexes: [{x: 957, y: 535}, {x: 945, y: 534}, {x: 937, y: 522}, {x: 943, y: 517}, {x: 939, y: 503}, {x: 942, y: 493}, {x: 934, y: 484}, {x: 922, y: 497}, {x: 904, y: 503}, {x: 885, y: 502}, {x: 875, y: 519}, {x: 862, y: 524}, {x: 861, y: 530}, {x: 869, y: 546}, {x: 888, y: 549}, {x: 901, y: 556}, {x: 944, y: 553}, {x: 949, y: 559}, {x: 959, y: 556}, {x: 956, y: 544}, {x: 957, y: 535}]
 });
 
@@ -1050,9 +1050,9 @@ objects.push({
 name: "Золотая шахта",
 description: "Приносит в неделю 600 золота",
 image: "obejct_7.png",
-owner: "Орки",
+owner: "Паладины",
 textColor: "#FF8C00",
-backgroundColor: "#FF8C00",
+backgroundColor: "#D3D3D3",
 detailMap: "",
 location: {x: 825, y:529},
 size: {width: 45, height:45}
@@ -1069,9 +1069,9 @@ location: {x: 155, y:439},
 size: {width: 68, height:70}
 });
 objects.push({
-name: "Орки",
+name: "Паладины",
 description: "Лагерь где из молодых и необученных бойцов становятся легендарными воинами",
-image: "obejct_37.png",
+image: "obejct_5.png",
 owner: "",
 textColor: "#",
 backgroundColor: "#",
@@ -1083,9 +1083,9 @@ objects.push({
 name: "Золотая шахта",
 description: "Приносит в неделю 600 золота",
 image: "obejct_7.png",
-owner: "Орки",
+owner: "Паладины",
 textColor: "#FF8C00",
-backgroundColor: "#FF8C00",
+backgroundColor: "#D3D3D3",
 detailMap: "",
 location: {x: 872, y:467},
 size: {width: 45, height:45}
@@ -1094,9 +1094,9 @@ objects.push({
 name: "Золотая шахта",
 description: "Приносит в неделю 600 золота",
 image: "obejct_7.png",
-owner: "Орки",
+owner: "Паладины",
 textColor: "#FF8C00",
-backgroundColor: "#FF8C00",
+backgroundColor: "#D3D3D3",
 detailMap: "",
 location: {x: 920, y:427},
 size: {width: 45, height:45}
